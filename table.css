@@ -1,0 +1,22 @@
+body{
+    background-color: skyblue;
+}
+
+table, th, td{
+    /* border: 2px solid red; */
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+table{
+    margin: auto;
+}
+
+th{
+    background-color: black;
+    color: goldenrod;
+}
+
+tr:nth-of-type(even){
+    background-color: gray;
+}
